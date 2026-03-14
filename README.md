@@ -1,4 +1,4 @@
-
+÷
 ---
 
 # Azure Identity Security Architecture
@@ -19,29 +19,18 @@ Components configured in this lab:
 
 ---
 
-## Azure Users and Groups
 
-![Azure Users](screenshots/azure/azure-users.png)
+# Azure Identity Security Implementation
 
-![Azure Groups](screenshots/azure/azure-groups.png)
-
----
-
-## Azure RBAC Role Assignments
-
-![Azure RBAC](screenshots/azure/azure-rbac-role-assignments.png)
-
----
-
-## Conditional Access Policy
+## Conditional Access (MFA)
 
 ![Conditional Access](screenshots/azure/conditional-access-mfa.png)
 
 ---
 
-## Privileged Identity Management
+## Privileged Identity Management (JIT)
 
-![PIM](screenshots/azure/pim-role-activation.png)
+![PIM Activation](screenshots/azure/pim-role-activation.png)
 
 ---
 
@@ -59,13 +48,15 @@ Components configured in this lab:
 
 ## Managed Identity
 
-![Managed Identity](screenshots/azure/vm-managed-identity-overview.png)
+![Managed Identity](screenshots/azure/vm-managed-identity.png)
+
+![Managed Identity Overview](screenshots/azure/vm-managed-identity-overview.png)
 
 ---
 
-## Azure Key Vault Access
+## Azure Key Vault
 
-![Key Vault](screenshots/azure/keyvault-access-role.png)
+![Key Vault](screenshots/azure/keyvault-created.png)
 
 ---
 
@@ -75,9 +66,53 @@ Components configured in this lab:
 
 ---
 
-# AWS Identity Security Architecture
+# AWS Identity Security Implementation
 
-AWS IAM was implemented to demonstrate identity management and access control across AWS services.
+## IAM Policy (EC2 Read Only)
+
+![EC2 Policy](screenshots/aws/EC2ReadOnlyPolicy.png)
+
+---
+
+## Custom IAM Policy
+
+![Custom Policy](screenshots/aws/aws-custom-policy.png)
+
+---
+
+## Cloud Admin Permissions
+
+![Cloud Admin Permissions](screenshots/aws/aws-cloud-admin-permissions.png)
+
+---
+
+## IAM Role for EC2
+
+![EC2 Role](screenshots/aws/aws-ec2-role-overview.png)
+
+---
+
+## STS AssumeRole
+
+![Assume Role](screenshots/aws/aws-assume-role.png)
+
+---
+
+## AWS Secrets Manager
+
+![Secrets Manager](screenshots/aws/aws-secrets-manager.png)
+
+---
+
+## IAM Access Analyzer
+
+![Access Analyzer](screenshots/aws/aws-access-analyzer.png)
+
+---
+
+## Permission Boundaries
+
+![Permission Boundary](screenshots/aws/DeveloperPermissionBoundary.png)
 
 Components configured in this lab:
 
