@@ -19,14 +19,79 @@ Components configured in this lab:
 
 ---
 
-
 # Azure Identity Security Implementation
 
+Azure identity security is implemented using Microsoft Entra ID and Azure RBAC.
 
+The following identity security components were configured in this lab.
 
+---
 
+## Azure Resource Group
 
+![Azure Resource Group](screenshots/azure/azure-resource-group.png)
 
+---
+
+## Azure RBAC Role Assignments
+
+![Azure RBAC Role Assignments](screenshots/azure/azure-rbac-role-assignments.png)
+
+---
+
+## Entra ID Groups
+
+![Entra Groups](screenshots/azure/entra-groups.png)
+
+---
+
+## Group Membership
+
+![Group Membership](screenshots/azure/group-membership.png)
+
+---
+
+## Conditional Access Policy (MFA)
+
+![Conditional Access](screenshots/azure/conditional-access-mfa.png)
+
+---
+
+## Privileged Identity Management (PIM)
+
+![PIM Role Activation](screenshots/azure/pim-role-activation.png)
+
+---
+
+## Self Service Password Reset (SSPR)
+
+![SSPR](screenshots/azure/sspr.png)
+
+---
+
+## App Registration
+
+![App Registration](screenshots/azure/app-registration.png)
+
+---
+
+## Managed Identity
+
+![Managed Identity](screenshots/azure/vm-managed-identity.png)
+
+![Managed Identity Overview](screenshots/azure/vm-managed-identity-overview.png)
+
+---
+
+## Azure Key Vault
+
+![Key Vault](screenshots/azure/keyvault-created.png)
+
+---
+
+## Identity Protection
+
+![Identity Protection](screenshots/azure/identity-protection-policy.png)
 
 
 ---
