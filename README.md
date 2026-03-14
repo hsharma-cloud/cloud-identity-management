@@ -1,0 +1,207 @@
+
+---
+
+# Azure Identity Security Architecture
+
+Azure identity security was implemented using Microsoft Entra ID and Azure RBAC.
+
+Components configured in this lab:
+
+- Entra ID Users and Groups
+- Azure RBAC role assignments
+- Conditional Access with MFA
+- Privileged Identity Management (PIM)
+- Self-Service Password Reset (SSPR)
+- App Registration
+- Managed Identity
+- Azure Key Vault access
+- Identity Protection policies
+
+---
+
+## Azure Users and Groups
+
+![Azure Users](screenshots/azure/azure-users.png)
+
+![Azure Groups](screenshots/azure/azure-groups.png)
+
+---
+
+## Azure RBAC Role Assignments
+
+![Azure RBAC](screenshots/azure/azure-rbac-role-assignments.png)
+
+---
+
+## Conditional Access Policy
+
+![Conditional Access](screenshots/azure/conditional-access-mfa.png)
+
+---
+
+## Privileged Identity Management
+
+![PIM](screenshots/azure/pim-role-activation.png)
+
+---
+
+## Self Service Password Reset
+
+![SSPR](screenshots/azure/sspr.png)
+
+---
+
+## App Registration
+
+![App Registration](screenshots/azure/app-registration.png)
+
+---
+
+## Managed Identity
+
+![Managed Identity](screenshots/azure/vm-managed-identity-overview.png)
+
+---
+
+## Azure Key Vault Access
+
+![Key Vault](screenshots/azure/keyvault-access-role.png)
+
+---
+
+## Identity Protection
+
+![Identity Protection](screenshots/azure/identity-protection-policy.png)
+
+---
+
+# AWS Identity Security Architecture
+
+AWS IAM was implemented to demonstrate identity management and access control across AWS services.
+
+Components configured in this lab:
+
+- IAM Users
+- IAM Groups
+- IAM Policies
+- Custom JSON Policies
+- IAM Roles
+- STS AssumeRole
+- Secrets Manager
+- IAM Access Analyzer
+- Permission Boundaries
+
+---
+
+## IAM Users
+
+![IAM Users](screenshots/aws/aws-iam-users.png)
+
+---
+
+## IAM Groups
+
+![IAM Groups](screenshots/aws/aws-iam-groups.png)
+
+---
+
+## Custom IAM Policy
+
+![Policy Visual](screenshots/aws/aws-policy-visual-editor.png)
+
+![Policy JSON](screenshots/aws/aws-policy-json.png)
+
+---
+
+## Group Policy Assignment
+
+![Group Policy](screenshots/aws/aws-group-policy-attachment.png)
+
+---
+
+## IAM Role for EC2
+
+![EC2 Role](screenshots/aws/aws-ec2-role-overview.png)
+
+---
+
+## STS AssumeRole
+
+![Assume Role](screenshots/aws/aws-assume-role.png)
+
+---
+
+## AWS Secrets Manager
+
+![Secrets Manager](screenshots/aws/aws-secrets-manager.png)
+
+---
+
+## IAM Access Analyzer
+
+![Access Analyzer](screenshots/aws/aws-access-analyzer.png)
+
+---
+
+## IAM Credential Security
+
+![IAM Credentials](screenshots/aws/aws-iam-security-credentials.png)
+
+---
+
+## Permission Boundaries
+
+![Permission Boundary](screenshots/aws/aws-permission-boundary-policy.png)
+
+---
+
+# Security Concepts Demonstrated
+
+Authentication Security
+- Multi-factor authentication
+- Conditional Access policies
+
+Privileged Access Management
+- Just-In-Time access
+- Temporary credentials
+
+Authorization
+- Role-Based Access Control
+- IAM policy evaluation
+- Permission boundaries
+
+Workload Identity
+- Azure Managed Identity
+- AWS IAM Roles
+
+Secret Protection
+- Azure Key Vault
+- AWS Secrets Manager
+
+Identity Monitoring
+- AWS Access Analyzer
+- Azure Identity Protection
+
+---
+
+# Technologies Used
+
+Azure
+- Microsoft Entra ID
+- Azure RBAC
+- Conditional Access
+- Privileged Identity Management
+- Managed Identity
+- Azure Key Vault
+- Identity Protection
+
+AWS
+- IAM Users
+- IAM Groups
+- IAM Policies
+- IAM Roles
+- AWS STS
+- AWS Secrets Manager
+- IAM Access Analyzer
+- Permission Boundaries
+
