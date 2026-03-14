@@ -22,61 +22,27 @@ Components configured in this lab:
 
 # Azure Identity Security Implementation
 
-## Conditional Access (MFA)
 
-![Conditional Access](screenshots/azure/conditional-access-mfa.png)
 
----
 
-## Privileged Identity Management (JIT)
 
-![PIM Activation](screenshots/azure/pim-role-activation.png)
 
----
 
-## Self Service Password Reset
-
-![SSPR](screenshots/azure/sspr.png)
-
----
-
-## App Registration
-
-![App Registration](screenshots/azure/app-registration.png)
-
----
-
-## Managed Identity
-
-![Managed Identity](screenshots/azure/vm-managed-identity.png)
-
-![Managed Identity Overview](screenshots/azure/vm-managed-identity-overview.png)
-
----
-
-## Azure Key Vault
-
-![Key Vault](screenshots/azure/keyvault-created.png)
-
----
-
-## Identity Protection
-
-![Identity Protection](screenshots/azure/identity-protection-policy.png)
 
 ---
 
 # AWS Identity Security Implementation
 
-## IAM Policy (EC2 Read Only)
 
-![EC2 Policy](screenshots/aws/EC2ReadOnlyPolicy.png)
+## IAM Users
+
+![IAM Users](screenshots/aws/aws-iam-users.png)
 
 ---
 
-## Custom IAM Policy
+## IAM Groups
 
-![Custom Policy](screenshots/aws/aws-custom-policy.png)
+![IAM Groups](screenshots/aws/aws-iam-groups.png)
 
 ---
 
@@ -86,9 +52,23 @@ Components configured in this lab:
 
 ---
 
+## Custom IAM Policy
+
+![Custom IAM Policy](screenshots/aws/aws-custom-policy.png)
+
+---
+
+## EC2 Read Only Policy
+
+![EC2 Policy](screenshots/aws/EC2ReadOnlyPolicy.png)
+
+---
+
 ## IAM Role for EC2
 
-![EC2 Role](screenshots/aws/aws-ec2-role-overview.png)
+![EC2 IAM Role](screenshots/aws/aws-ec2-iam-role.png)
+
+![EC2 Role Overview](screenshots/aws/aws-ec2-role-overview.png)
 
 ---
 
@@ -107,6 +87,12 @@ Components configured in this lab:
 ## IAM Access Analyzer
 
 ![Access Analyzer](screenshots/aws/aws-access-analyzer.png)
+
+---
+
+## IAM Credential Security
+
+![IAM Credentials](screenshots/aws/aws-iam-security-credentials.png)
 
 ---
 
